@@ -17,6 +17,7 @@
 
 ## 목표
 - **기존 PHP기반의 웹앱형태의 앱에서 Flutter, Java Spring boot를 활용한 네이티브 앱으로 전환**
+  - 참여인원 : 3명(CTO 1명, Back-end: 1명, Front-end: 1명)
  
 <br>
 
