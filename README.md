@@ -80,19 +80,33 @@
 |<img src="https://github.com/user-attachments/assets/fa0f6060-b887-4cdc-b20b-df3fac1ff9b0" width="300"/>|
 
 
-
 ### [챌린지 코스]
 - 간단한 챌린지 코스 썸네일 or 단계 구분
-- 클릭시 
+- 클릭 시 카카오맵을 활용한 위치 표시
+- 핀 클릭시 사진과 간단한 설명
+- QR코드를 활용한 위치 인증
+- 인증 시 500m 이내가 아니라면 불가
 
 | 챌린지 코스 |
 |----------|
-|![challenge_main]()|
+|<img src="https://github.com/user-attachments/assets/7048033f-d789-4242-b025-24119563f45e" width="300"/>|
 
 
 ### [챌린지 게시판]
-- 
+- 사진 슬라이드
+- 좋아요
+- 댓글 CRUD
 
 | 챌린지 게시판 |
 |----------|
-|![challenge_main]()|
+|<img src="https://github.com/user-attachments/assets/2221d901-1d01-4401-b361-7b35f38fba26" width="300"/>|
+
+
+### [햄버거]
+- 프로필 수정
+- 공지사항, FAQ, 1:1문의
+- 서비스 약관
+
+| 햄버거 |
+|----------|
+|<img src="https://github.com/user-attachments/assets/11dc1f8a-adfa-4577-8586-686156fa6308" width="300"/>|
