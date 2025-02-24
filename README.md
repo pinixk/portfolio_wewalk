@@ -1,44 +1,47 @@
-# 위캔필라테스 APP
-![info](https://github.com/user-attachments/assets/2a3d7983-01ea-450e-8cb2-4034574421b0)
+# WEWALK APP
+![image](https://github.com/user-attachments/assets/f9d6e005-a20a-406c-9346-c12f6cdb9e20)
 
-- 어플리케이션 : [IOS](https://apps.apple.com/kr/app/%EC%9C%84%EC%BA%94%EB%A0%88%EB%94%94/id1609554901) / [Android](https://play.google.com/store/apps/details?id=com.canma.wecan&hl=ko)
-- Test ID : 01089773917
-- Test PW : 1
- 
+
+- 어플리케이션 : [IOS](https://apps.apple.com/kr/app/%EC%9C%84%EC%9B%8C%ED%81%AC/id1586091495) / [Android](https://play.google.com/store/apps/details?id=com.inplusweb.wewalk&hl=ko)
+- Test ID : bjkim0110@gmail.com
+- Test PW : !123
+
 <br>
 
 ## 앱 소개
 
-- 위캔필라테스 회원님들의 간편한 수업 예약 / 취소 기능
-- qr코드를 활용한 매장 출입 관리
-- 회원님들의 한달 목표 설정 및 운동 / 식단 기록
+- QR인증 기반의 걷기 챌린지
+- QR의 500m 이상에서는 인증 불가
 
+<br>
+
+## 목표
+- **기존 PHP기반의 웹앱형태의 앱에서 Flutter, Java Spring boot를 활용한 네이티브 앱으로 전환**
+ 
 <br>
 
 ### 개발 환경
 
 - Front-end : Flutter
-- Back-end : AWS를 활용한 node.js
-- 버전 및 이슈관리 : Github, CodePipeline, Elastic Beanstalk
-- 협업 툴 : Github, Notion, Slack
+- Back-end : Java Spring boot
+- 버전 및 이슈관리 : Git, CodePipeline, Elastic Beanstalk
+- 협업 툴 : GitLab, Excel
 - 서비스 배포 환경 : AWS
 - DB : MySQL, AWS RDS, S3
 
 <br>
 
 ### 마일스톤
-- **2023년 2월 - 2023년 4월**
-    - 기존 앱 UI 대규모 리뉴얼
-    - 여러 핸드폰 기종에 대한 유동적인 UI 개발
-    - 다양한 애니메이션 효과 구현
+- **2024년 11월 - 2024년 12월**
+    - 기존 앱 기술 파악
+    - DB 파악
+    - 서버 AWS로 이전 준비
+    - Java Spring boot 공부
 
-- **2023년 5월 - 2023년 8월**
-    - 회원님들 운동 기록 및 식단 기록을 위한 서비스 개발
-    - 개인의 목표치를 설정 후 실제 기록을 통한 그래프 구현
-
-- **2023년 9월 - 2023년 10월**
-    - 디버깅 작업
-    - AWS 활용한 배포
+- **2025년 12월 - 2025년 2월**
+    - 필수적 데이터 DB 이전
+    - 기존 UX/UI를 최대한 살리되 개선
+    - QR 정확도 향상
 
 <br>
 
@@ -46,12 +49,12 @@
 
 ### [초기화면]
 - 서비스 접속 초기화면으로 splash 화면이 잠시 나온 뒤 초기 페이지
-    - 로그인이 되어 있지 않은 경우 : 로그인 페이지
-    - 로그인이 되어 있는 경우 : 강사 예약 페이지
+    - 로그인이 되어 있지 않은 경우 : 로그인 화면
+    - 로그인이 되어 있는 경우 : 홈 화면
 
 | 초기화면 |
 |----------|
-|![splash](https://github.com/user-attachments/assets/cdb1dac6-0d50-4006-994b-acadb73fa33f)|
+|![splash](https://github.com/user-attachments/assets/99a9f4f2-09b1-4a71-bb22-1b7e4a429943)|
 
 
 ### [회원가입]
